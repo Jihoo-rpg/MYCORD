@@ -19,7 +19,7 @@
     "productName": "Mycord",
     "files": [
       "main.js",
-      "index.html"
+      "app.html"
     ],
     "directories": {
       "output": "dist"

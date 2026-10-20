@@ -11,7 +11,7 @@ function createWindow() {
     autoHideMenuBar: true,
     webPreferences: { contextIsolation: true, nodeIntegration: false }
   });
-  win.loadFile('index.html');
+  win.loadFile('app.html');
   // 메시지 속 링크는 기본 브라우저로 열기
   win.webContents.setWindowOpenHandler(({ url }) => {
     shell.openExternal(url);
